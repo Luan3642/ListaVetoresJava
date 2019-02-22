@@ -9,26 +9,34 @@ import java.util.Scanner;
 
 /**
  *
- * @author luanmagalhaes
+ * @author Luan
  */
-public class Ex12 {
+public class Ex14 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        int vetorA [] = new int[5];
-        int somaVetor = 0;
-        
+        int vetorA [] = new int [10];
+        int soma = 0;
+        int divisao = 0;
+        int media = 0;
         
         for (int i = 0; i <vetorA.length; i++) {
-            System.out.println("Informe os números deste vetor, POSIÇÃO: " +(1+i));
+            System.out.println("Informe os valores do vetor A, POSIÇÃO: " +(1+i));
             vetorA[i] = scan.nextInt();
         }
         
         for (int i = 0; i <vetorA.length; i++) {
-            somaVetor += vetorA[i];
+            if (vetorA[i] % 2 == 1 ){
+                divisao += 1;
+                soma += vetorA[i];
+                media = soma / divisao;
+            }
+            
+            
+            
         }
+        System.out.println("Média: " +media);
         
-        System.out.println("");
-        System.out.println("Soma do vetor: " +somaVetor);
     }
+    
 }

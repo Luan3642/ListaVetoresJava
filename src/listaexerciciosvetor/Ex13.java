@@ -9,26 +9,27 @@ import java.util.Scanner;
 
 /**
  *
- * @author luanmagalhaes
+ * @author Luan
  */
-public class Ex12 {
+public class Ex13 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        int vetorA [] = new int[5];
-        int somaVetor = 0;
+        int vetorA [] = new int [10];
+        int cont = 0;
         
         
         for (int i = 0; i <vetorA.length; i++) {
-            System.out.println("Informe os números deste vetor, POSIÇÃO: " +(1+i));
+            System.out.println("Informe os valores do vetor, POSIÇÃO: " +(1+i));
             vetorA[i] = scan.nextInt();
         }
         
         for (int i = 0; i <vetorA.length; i++) {
-            somaVetor += vetorA[i];
+            if (vetorA[i] % 5 ==0){
+                cont += 1;
+            }
         }
+        System.out.println("Total de números multiplos de 5: " +cont);
         
-        System.out.println("");
-        System.out.println("Soma do vetor: " +somaVetor);
     }
 }
