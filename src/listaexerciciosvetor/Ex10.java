@@ -1,16 +1,15 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ @author luanmagalhaes
+
+ 10) Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, 
+     sendo que cada elemento do vetor B deverá ser o resto da divisão do respectivo elemento de A por 2 (dois)
+
  */
 package listaexerciciosvetor;
 
 import java.util.Scanner;
 
-/**
- *
- * @author luanmagalhaes
- */
+
 public class Ex10 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -1,16 +1,17 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+   @ autor Luan Magalhães
+    
+    3) Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, 
+       sendo que cada elemento do vetor B, deverá ser o quadrado do respectivo elemento A.
+
+
  */
 package listaexerciciosvetor;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Luan
- */
+
+
 public class Ex3 {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
