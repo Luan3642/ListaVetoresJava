@@ -1,16 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+    @autor Luan Magalhães
+
+    15) Criar um vetor A com 10 elementos inteiros. 
+        Desenvolver um programa que defina o percentual de elementos pares e ímpares, 
+        respectivamente, armazenados neste vetor.
+
+*/
+
 package listaexerciciosvetor;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Luan
- */
+
 public class Ex15 {
 
     public static void main(String[] args) {

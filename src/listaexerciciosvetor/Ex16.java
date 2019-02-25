@@ -1,17 +1,19 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+    @author Luan
+
+    16).Criar um vetor A com 10 elementos inteiros. Escrever um programa que calcule e escreva: a) a soma de elementos armazenados neste vetor que são inferiores a 15; 
+        b) a quantidade de elementos armazenados no vetor que são iguais a 15;  
+        c) a média dos elementos armazenados no vetor que são superiores a 15. 
+
  */
 package listaexerciciosvetor;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- *
- * @author Luan
- */
+
+
 public class Ex16 {
 
     public static void main(String[] args) {

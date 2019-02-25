@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+   @author Luan Magalhães  
+
+   20) Faça um programa de consulta pela posição numérica da pessoa: leia nomes de pessoas, sendo a quantidade determinada pelo usuário. 
+       Logo após a entrada pergunte ao usuário o número do nome que ele gostaria de consultar. Após sua resposta, exiba o nome que fica na posição informada.
  */
 package listaexerciciosvetor;
 
@@ -10,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Luan
+ * 
  */
 public class Ex20 {
     public static void main(String[] args) {

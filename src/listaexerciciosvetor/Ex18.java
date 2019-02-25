@@ -1,8 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+    @author Luan Magalhães
+
+    18) Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas. 
+        Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
+
+
+*/
 package listaexerciciosvetor;
 
 import java.util.Random;
@@ -10,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Luan
+ * 
  */
 public class Ex18 {
     public static void main(String[] args) {

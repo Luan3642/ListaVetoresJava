@@ -1,16 +1,19 @@
+
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ @ autor Luan Magalhães
+
+   13) Criar um vetor A com 10 elementos inteiros. 
+       Implementar um programa que determine a soma dos elementos armazenados neste vetor que são múltiplos de 5.
+
+*/
+
+
+
 package listaexerciciosvetor;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Luan
- */
+
 public class Ex13 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
