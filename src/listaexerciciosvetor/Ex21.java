@@ -36,13 +36,12 @@ public class Ex21 {
             System.out.println("");
         }
         
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i <nomes.length; i++) {
             System.out.println("Digite o nome da pessoa que deseja procurar");
-            nomeDeseja = scan.next();
+            nomeDeseja = nomes[i];
             
-            if (nomeDeseja == nomes[i]){
-                System.out.println(telefonePessoas[i]);
-            }
+            
+            
         }
         
         
